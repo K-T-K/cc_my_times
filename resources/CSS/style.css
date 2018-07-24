@@ -10,9 +10,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  
   z-index: 1
-  background-color: white;
+  background: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -20,11 +20,15 @@ header {
   border-bottom: 1px solid black;
   padding: 10px;
   width: 100%;
+
+
+
 }
 
 .logo {
   display: flex;
   align-items: center;
+
 }
 
 .mt {
@@ -39,5 +43,30 @@ a {
 
 nav span {
  display: inline-block;
- padding-right: 65px;
+ padding-right: 55px;
  }
+
+
+ /* Main Container:  */
+
+ .container {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 35px;
+ }
+
+ .clmn1 {
+   width: 630px;
+ }
+
+ .clmn2 {
+   width: 300px;
+ }
+
+ .clmn3 {
+   width: 240px;
+ }
+
+.cookie {
+
+}
