@@ -3,3 +3,41 @@ body {
   font-size: 17px;
   color: black;
 }
+
+/* Header:  */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.mt {
+ color: mediumaquamarine;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+a {
+  color: black;
+}
+
+nav span {
+ display: inline-block;
+ padding-right: 65px;
+ }
