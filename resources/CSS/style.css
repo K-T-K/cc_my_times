@@ -66,6 +66,7 @@ nav span {
    display: flex;
    justify-content: space-between;
    margin-top: 35px;
+   margin-bottom: 75px;
  }
 
  .clmn1 {
@@ -80,8 +81,6 @@ nav span {
  .clmn3 {
    width: 240px;
  }
-
-
 
 
  /* Clmn 1:  */
@@ -169,9 +168,46 @@ nav span {
 
 /* footer:  */
 
-.footer {
-  background-color: MediumAquamarine;
-  margin: auto;
+#footer {
+  display: flex;
+  flex-direction: column;;
+  justify-content: center;
+  align-content: center;
+  background-color: mediumaquamarine;
   font-family: Verdana;
   font-size: 12px;
+  height: 300px;
+  margin: auto;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 550px;
+  justify-content: space-around;
+
+}
+
+
+.mt-footer {
+  display: flex;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 25px;
+
+}
+
+.foot-nav {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
