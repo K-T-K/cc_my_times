@@ -26,6 +26,9 @@ body {
   text-align: center;
 }
 
+p {
+  padding-top: 20px;
+}
 /* Header:  */
 
 header {
